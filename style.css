@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #352817;
+  background-color: #ffd7bf;
+}
+/* RE-USED CLASSES */
+
+.section {
+  max-width: 80%;
+  margin: 0 auto 5rem auto;
+}
+
+.section-bg {
+  background-color: #ffb88f;
+  padding: 10rem 0 0 0;
+  overflow: hidden;
+}
+
+/* HERO-SECTION  001 */
+
+.main-product-img {
+  display: none;
+}
+
+.product-image {
+  height: 25rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 80%;
+}
+.logo-image {
+  height: 8rem;
+}
+.nav-list {
+  list-style: none;
+}
+.nav-list li {
+  display: inline-block;
+  margin-left: 3rem;
+  text-transform: uppercase;
+}
+.menu-icon {
+  height: 30px;
+  width: 30px;
+  display: none;
+}
+.nav-icons img {
+  margin-left: 2rem;
+}
+h1 {
+  font-size: 9rem;
+  margin-top: 11rem;
+  font-family: serif;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.rating-text {
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.para {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+.size {
+  margin: 2rem 0 2rem 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.sizes-details {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 2px solid #f8a271;
+  border-radius: 55px;
+  font-weight: bold;
+}
+.backg {
+  background-color: #f8a271;
+}
+
+.r250 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.cart-icon {
+  display: none;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  font-size: 1rem;
+  gap: 2rem;
+  position: fixed;
+  top: 88%;
+  left: 62.5%;
+  padding: 1rem;
+  border-radius: 25px;
+}
+.vector-icon {
+  padding: 1rem;
+  background-color: #fbf3e4;
+  border-radius: 11px;
+}
+
+.cart-bold {
+  font-weight: bold;
+}
+
+.add-to-cart {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #362918;
+  padding: 1.2rem;
+  border-radius: 25px;
+}
+
+.icon {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 3rem;
+}
+
+/* INGREDIENTS LIST 002 */
+
+.ingredients {
+  background-color: #f8a271;
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 0 0 0;
+}
+.ingredients li {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* KNOW YOUR FOOD SECTION  003  */
+
+h2 {
+  text-align: center;
+  font-size: 7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: serif;
+  margin-bottom: 4rem;
+}
+
+.kyf-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nutri-facts {
+  font-size: 1.2rem;
+}
+
+.nutri-text {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.nutri-perG {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1.7rem;
+}
+.nutri-details p {
+  font-size: 1.5rem;
+
+  margin-bottom: 1rem;
+  letter-spacing: 1.5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.2rem;
+}
+.seeds-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.whatsinside-h {
+  font-weight: bold;
+}
+
+.whats-inside p {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+.leaf-icon {
+  position: absolute;
+  right: -14%;
+  top: 120%;
+}
+
+/* KNOW YOUR PRODUCT SECTION 004 */
+
+.know-product {
+  text-align: left;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+.play-image {
+  height: 35rem;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px;
+}
+
+/* DISPLAY OF FULL IMAGE WITH SET 005 */
+.product-final {
+  height: 50rem;
+  margin: 0 auto;
+  display: block;
+}

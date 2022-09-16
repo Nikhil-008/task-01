@@ -1,0 +1,218 @@
+/* screen below 1297 px */
+
+@media (max-width: 81em) {
+  .cart {
+    position: static;
+    gap: 0.5rem;
+    max-width: 30rem;
+    margin-top: 2rem;
+  }
+
+  .play-image {
+    height: 30rem;
+  }
+  .product-final {
+    height: 30rem;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .section-bg {
+    padding: 5rem 0 0 0;
+  }
+  .ingredients li {
+    font-size: 0.8rem;
+  }
+}
+
+/* screen below 1076 px */
+
+@media (max-width: 67.25em) {
+  .product-image {
+    display: none;
+  }
+
+  .nav-list li {
+    margin-left: 1rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+    margin-top: 3rem;
+  }
+
+  .main-product-img {
+    display: inline-block;
+    height: 25rem;
+    margin: 12rem 0 0 0;
+  }
+
+  .icon {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1rem;
+  }
+
+  h2 {
+    font-size: 5rem;
+
+    margin-bottom: 2rem;
+  }
+
+  .know-product {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .leaf-icon {
+    height: 10rem;
+  }
+
+  .play-image {
+    height: 20rem;
+    display: block;
+    margin: auto;
+  }
+  .nutri-details p {
+    font-size: 1rem;
+  }
+  .whats-inside p {
+    font-size: 1rem;
+  }
+}
+
+/* screen below 876 px */
+
+@media (max-width: 55em) {
+  .nav-list li {
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+  }
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 0.8rem;
+  }
+  .ingredients li {
+    font-size: 0.6rem;
+  }
+  .seeds {
+    height: 4rem;
+    width: 4rem;
+  }
+  .cart p {
+    font-size: 0.8rem;
+  }
+  .cart {
+    max-width: 25rem;
+  }
+}
+
+/* screen below 712 px */
+
+@media (max-width: 44.5em) {
+  h1 {
+    font-size: 3rem;
+  }
+  .nav-list li {
+    display: none;
+  }
+  .menu-icon {
+    display: inline-block;
+  }
+  .kyf-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .whats-inside {
+    margin-top: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+
+    margin-bottom: 2rem;
+  }
+
+  .play-image {
+    height: 15rem;
+  }
+  .product-final {
+    height: 20rem;
+  }
+}
+/* screen below 528 px */
+
+@media (max-width: 33em) {
+  .logo-image {
+    height: 5rem;
+  }
+
+  h1 {
+    margin: 1rem auto 1rem 2rem;
+    text-align: justify;
+  }
+
+  .para {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: start;
+  }
+  .vector-icon {
+    display: none;
+  }
+  .cart-flex {
+    display: none;
+  }
+  .cart-icon {
+    display: inline-block;
+  }
+  .flex-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .add-to-cart {
+    color: #362918;
+    background-color: #fff;
+    padding: 0.5rem;
+  }
+  .cart {
+    max-width: 11rem;
+  }
+
+  .ingredients li {
+    font-size: 0rem;
+  }
+  .seeds {
+    height: 4rem;
+    width: 4rem;
+  }
+  .nutri-details p {
+    font-size: 0.8rem;
+  }
+  .know-product {
+    font-size: 2rem;
+  }
+
+  .play-image {
+    height: 10rem;
+  }
+  .leaf-icon {
+    height: 6rem;
+  }
+  .section-bg {
+    padding: 0;
+  }
+
+  h2 {
+    margin-top: 4rem;
+  }
+
+  .main-product-img {
+    height: 20rem;
+    margin: 8rem auto 0 auto;
+    display: block;
+  }
+}
